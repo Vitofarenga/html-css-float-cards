@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* titolo */
+main{
+    width: 70%;
+    margin: 0;
+    position: absolute;
+    left: 15%;
+}
+
+h1{
+    font-weight: bold;
+    color: rgb(122, 26, 81);
+    text-align: center;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    font-family: 'Varela Round', sans-serif;
+}
+#title{
+    text-align: center;
+}
+/* schede */
+#s1{
+   background-color: black;
+   margin-right: 20px;
+   margin-top: 50px;
+   float: left;
+   height: 100px;
+   width: calc(100% / 3 - 40px);
+}
+
+#s2{
+    background-color: black;
+    margin-right: 20px;
+    margin-top: 50px;
+    float: left;
+    height: 100px;
+    width: calc(100% / 3 - 40px);
+ }
+ #s3{
+    background-color: black;
+    margin-right: 20px;
+    margin-top: 50px;
+    float: left;
+    height: 100px;
+    width: calc(100% / 3 - 40px);
+ }
+img{
+     height: 100%;
+     float: left;
+     margin-right: 5px;
+ }
+ .name{
+    font-family: 'Varela Round', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 8px;
+}
+.mail{
+    color: aqua;
+    padding-bottom: 5px;
+}
+.s2{
+    color: white;
+    padding-bottom: 8px;
+}
+
